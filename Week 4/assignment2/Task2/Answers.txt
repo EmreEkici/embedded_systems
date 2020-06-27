@@ -1,0 +1,6 @@
+Driver		Transmit Energy(J)	Listen Energy(J)	CPU Energy(J)		LPM Energy(J)
+Null_RDC	0.0			33.981			0.427			0.71
+
+Null_RDC driver consumes a lot of energy because it never switches off.
+
+* X-MAC and LPP drivers are removed with Contiki-2.7 so I could only test Null_RDC driver.

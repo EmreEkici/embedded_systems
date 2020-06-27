@@ -1,0 +1,8 @@
+Driver		Transmit Energy(J)	Listen Energy(J)	CPU Energy(J)		LPM Energy(J)
+Null_RDC	0.0			28.990			0.408			0.60
+CX-MAC		0.0			7.691			0.466			0.93
+ContikiMAC	0.0			0.627			0.272			0.56
+
+Out of the remaining 3, Null_RDC consumes the most energy while ContikiMAC consumes the least.
+
+* Similar situation to task 2, I could not test LPP and X-MAC drivers since they are not implemented at Contiki-2.7.

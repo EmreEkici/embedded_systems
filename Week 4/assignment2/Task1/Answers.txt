@@ -1,0 +1,9 @@
+Channel Rate(HZ)	Transmit Energy(J)	Listen Energy(J)	CPU Energy(J)		LPM Energy(J)
+4			1.614			0.470			0.803			0.9
+8			0.842			0.706			0.511			0.34
+16			0.421			1.177			0.382			0.6
+
+Transmit energy decreases as channel rate increases while other components' energy consumption decrease.
+
+* The assignment asks for 6 configurations but ContikiMAC and CSMA are at different layers there is actually 3
+possible configurations.
